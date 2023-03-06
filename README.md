@@ -21,25 +21,26 @@ To run this web app, you need to have the following:
 3. OpenAI API key
 4. Cloudinary API key
 
-#Installation
+# Installation
 1. Clone the repository: git clone https://github.com/SaifSunny/OpenAI-Image-Generation-useing-MERN.git
 2. Install the dependencies: 
-  cd client
-  npm install
 
-  cd ../server
-  npm install
+    cd client
+    npm install
+
+    cd ../server
+    npm install
   
 3. Set up environment variables:
 
 Copy .env.example to .env in both the client and server directories. In client/.env, set REACT_APP_API_URL to the URL of the server (e.g. http://localhost:5000). 
 
 In server/.env, set the following environment variables:
-  MONGODB_URL: the URI of your MongoDB instance
-  OPENAI_API_KEY: your OpenAI API key
-  CLOUDINARY_CLOUD_NAME: your Cloudinary cloud name
-  CLOUDINARY_API_KEY: your Cloudinary API key
-  CLOUDINARY_API_SECRET: your Cloudinary API secret
+    MONGODB_URL: the URI of your MongoDB instance
+    OPENAI_API_KEY: your OpenAI API key
+    CLOUDINARY_CLOUD_NAME: your Cloudinary cloud name
+    CLOUDINARY_API_KEY: your Cloudinary API key
+    CLOUDINARY_API_SECRET: your Cloudinary API secret
 
 4. Start the server: 
 
