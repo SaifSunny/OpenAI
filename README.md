@@ -22,14 +22,17 @@ To run this web app, you need to have the following:
 4. Cloudinary API key
 
 # Installation
-1. Clone the repository: git clone https://github.com/SaifSunny/OpenAI-Image-Generation-useing-MERN.git
-2. Install the dependencies: 
+1. Clone the repository: 
 
-    cd client
-    npm install
+        git clone https://github.com/SaifSunny/OpenAI-Image-Generation-useing-MERN.git
+        
+4. Install the dependencies: 
 
-    cd ../server
-    npm install
+        cd client
+        npm install
+
+        cd ../server
+        npm install
   
 3. Set up environment variables:
 
@@ -45,15 +48,15 @@ In server/.env, set the following environment variables:
 
 4. Start the server: 
 
-  cd server
-  npm start
+       cd server
+       npm start
   
 This will start the server at http://localhost:5000.
 
 5. Start the client:
 
-  cd ../client
-  npm start
+        cd ../client
+        npm start
   
 This will start the client at http://localhost:3000.
 
