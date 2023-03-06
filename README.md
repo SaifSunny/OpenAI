@@ -2,9 +2,6 @@
 
 This is a web app that generates images using OpenAI's GPT-3 text-to-image generation model. It is built using Vite (React), MongoDB, Express, Node.js, Cloudinary, and OpenAI.
 
-![Screenshot (848)](https://user-images.githubusercontent.com/72490093/223148038-7715ef64-aa2b-4516-8b3f-2f9b67e1868f.png)
-![Screenshot (850)](https://user-images.githubusercontent.com/72490093/223148052-7b4b07bb-2e39-4590-afa4-0aa14f7595b0.png)
-
 # Technologies Used
 1. Vite (React) - A build tool and development server that improves the frontend development experience.
 2. MongoDB - A NoSQL database used for storing image data.
@@ -12,6 +9,9 @@ This is a web app that generates images using OpenAI's GPT-3 text-to-image gener
 4. Node.js - A JavaScript runtime used for building the server-side API.
 5. Cloudinary - A cloud-based image and video management service used for storing generated images.
 6. OpenAI - A research organization focused on creating artificial intelligence in a safe and beneficial manner. The DALL-E model is used for generating images in this app.
+
+![Screenshot (848)](https://user-images.githubusercontent.com/72490093/223148038-7715ef64-aa2b-4516-8b3f-2f9b67e1868f.png)
+![Screenshot (850)](https://user-images.githubusercontent.com/72490093/223148052-7b4b07bb-2e39-4590-afa4-0aa14f7595b0.png)
 
 # Requirements
 To run this web app, you need to have the following:
