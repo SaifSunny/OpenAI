@@ -36,6 +36,7 @@ To run this web app, you need to have the following:
 Copy .env.example to .env in both the client and server directories. In client/.env, set REACT_APP_API_URL to the URL of the server (e.g. http://localhost:5000). 
 
 In server/.env, set the following environment variables:
+
     MONGODB_URL: the URI of your MongoDB instance
     OPENAI_API_KEY: your OpenAI API key
     CLOUDINARY_CLOUD_NAME: your Cloudinary cloud name
