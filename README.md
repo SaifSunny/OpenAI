@@ -34,34 +34,30 @@ To run this web app, you need to have the following:
         cd ../server
         npm install
   
-3. Set up environment variables:
+3. Set up environment variables: In server/.env, set the following environment variables:
 
-Copy .env.example to .env in both the client and server directories. In client/.env, set REACT_APP_API_URL to the URL of the server (e.g. http://localhost:5000). 
-
-In server/.env, set the following environment variables:
-
-    MONGODB_URL: the URI of your MongoDB instance
-    OPENAI_API_KEY: your OpenAI API key
-    CLOUDINARY_CLOUD_NAME: your Cloudinary cloud name
-    CLOUDINARY_API_KEY: your Cloudinary API key
-    CLOUDINARY_API_SECRET: your Cloudinary API secret
+       MONGODB_URL: the URI of your MongoDB instance
+       OPENAI_API_KEY: your OpenAI API key
+       CLOUDINARY_CLOUD_NAME: your Cloudinary cloud name
+       CLOUDINARY_API_KEY: your Cloudinary API key
+       CLOUDINARY_API_SECRET: your Cloudinary API secret
 
 4. Start the server: 
 
        cd server
        npm start
   
-This will start the server at http://localhost:5000.
+This will start the server at http://localhost:8080.
 
 5. Start the client:
 
         cd ../client
         npm start
   
-This will start the client at http://localhost:3000.
+This will start the client at http://127.0.0.1:5173/.
 
 # Usage
-To use the web app, go to http://localhost:3000. You can then enter a prompt in the input field and click the "Generate Image" button to generate an image based on the prompt.
+To use the web app, go to http://127.0.0.1:5173/. You can then enter a prompt in the input field and click the "Generate Image" button to generate an image based on the prompt.
 
 The generated image will be displayed on the page. You can also save the image to Cloudinary by clicking the "Save to Cloudinary" button. The image URL will be displayed on the page.
 
