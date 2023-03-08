@@ -1,6 +1,6 @@
 # OpenAI-Image-Generation-useing-MERN
 
-This is a web app that generates images using OpenAI's GPT-3 text-to-image generation model. It is built using Vite (React), MongoDB, Express, Node.js, Cloudinary, and OpenAI.
+This is a web app that generates images using OpenAI's GPT-3 text-to-image generation model. It is built using Vite (React), MongoDB, Express, Node.js, Cloudinary, and OpenAI. To use the Application visit https://open-ai-image-generation-useing-mern.vercel.app/
 
 # Technologies Used
 1. Vite (React) - A build tool and development server that improves the frontend development experience.
